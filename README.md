@@ -1,3 +1,3 @@
 # testmerge
  test repository to complete the trial.
- third line merge conflict
+ Adding one more line to create branch
