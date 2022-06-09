@@ -12,3 +12,5 @@ message TopicInfo {
    */
   string schema_id = 5;
 }
+
+add new line
