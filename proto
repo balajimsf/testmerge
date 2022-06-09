@@ -1,0 +1,14 @@
+message TopicInfo {
+  // Topic name
+  string topic_name = 1;
+  // Tenant GUID
+  string tenant_guid = 2;
+  // Is publishing allowed?
+  bool can_publish = 3;
+  // Is subscription allowed?
+  bool can_subscribe = 4;
+  /* Id of the current schema of the topic, which can be used for
+   * publishing of generically serialized events.
+   */
+  string schema_id = 5;
+}
